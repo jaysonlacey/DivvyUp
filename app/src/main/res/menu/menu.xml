@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/ic_more"
+          android:icon="@drawable/ic_mode"
+          android:title="modes"
+          app:showAsAction="ifRoom">
+        <menu>
+            <group android:id="@+id/mode_group" android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bucket"
+                    android:title="Bucket Mode"/>
+                <item
+                    android:id="@+id/individual"
+                    android:title="Individual Mode"/>
+            </group>
+        </menu>
+    </item>
+
+    <!--<item android:id="@+id/ic_add_person"-->
+          <!--android:icon="@drawable/ic_person_add_white_48dp"-->
+          <!--android:title="add"-->
+          <!--app:showAsAction="ifRoom"/>-->
+    <item android:id="@+id/ic_action_more"
+          android:icon="@drawable/ic_more_vert_white_48dp"
+          android:title="more"
+          app:showAsAction="always">
+        <menu>
+            <group android:id="@+id/group1" android:checkableBehavior="none">
+            <item
+                android:id="@+id/clear_list"
+                android:showAsAction="never"
+                android:title="Clear List"/>
+            </group>
+
+            <group android:id="@+id/group2" android:checkableBehavior="none">
+                <item
+                    android:id="@+id/about"
+                    android:showAsAction="never"
+                    android:title="About"/>
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left|center"
+    android:background="@color/background_material_dark"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="1dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:weightSum="1"
+                android:id="@+id/layoutRemoveBtn">
+
+                <Button
+                    android:layout_width="19dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/btnLogRemove"
+                    android:background="@android:drawable/btn_dialog"
+                    android:minWidth="12dp"
+                    android:minHeight="12dp"
+                    android:textSize="10sp"
+                    android:layout_weight="0.03"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1"
+                android:visibility="visible"
+                android:layout_gravity="right"
+                android:id="@+id/layoutLogTips">
+
+                <TextView
+                    android:text="@string/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAmountLabel"
+                    android:paddingLeft="3dp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtLogTips"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.25"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/layoutLogHours">
+
+                <TextView
+                    android:text="@string/hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtHoursLabel"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtLogHours"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/layoutLogResult">
+
+                <TextView
+                    android:text="@string/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtResultLabel"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTakeHome"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

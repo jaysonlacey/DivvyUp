@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Divvy Up!</string>
+    <string name="about_title">Thank you for using Divvy up!</string>
+    <string name="about_intro">This app was made to help people who pool tips in the workplace.
+    It allows the user to easily enter each person\'s tip amount and provides the option to split
+    amounts by hourly pay.</string>
+    <string name="about_tips_together">Note: \"Left Over\" values show the remaining dollars if change isn\'t distributed.</string>
+    <string name="about_questions_or_suggestions">Have suggestions? Questions? Want to report an error?
+    Contact the developer:</string>
+    <string name="one_at_a_time">Enter each persons number of hours one at a time.</string>
+
+    <string name="add_entry">Add Entry</string>
+    <string name="total_tips">Total Tips:</string>
+    <string name="hours">Hours: </string>
+    <string name="tips">Tips:</string>
+    <string name="tips_are_collected">Tips are collected:</string>
+    <string name="display">Display:</string>
+    <string name="individually">Individually</string>
+    <string name="hourly">Hourly</string>
+    <string name="hourly_colon">Hourly:</string>
+    <string name="tip_bucket">Tip Bucket</string>
+    <string name="left_over">Left Over:</string>
+    <string name="num_entries"># of Entries:</string>
+    <string name="avg">Avg:</string>
+    <string name="total_hours">Total Hours:</string>
+    <string name="low">Low:</string>
+    <string name="high">High:</string>
+    <string name="clear_all">Clear All</string>
+    <string name="log">Log:</string>
+    <string name="result">Result: </string>
+    <string name="amount">Amount: </string>
+
+    <string name="action_settings">About Divvy Up!</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>
